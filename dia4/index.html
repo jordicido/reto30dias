@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../dia2/">
+        <link rel="prev" href="../dia3/">
       
       
-        <link rel="next" href="../dia4/">
+        <link rel="next" href="../dia5/">
       
       
         
@@ -23,7 +23,7 @@
     
     
       
-        <title>DÍA 3 — “Evaluador de notas” - Reto 30 días programando</title>
+        <title>DÍA 4 — “Analizador de números” - Reto 30 días programando</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#dia-3-evaluador-de-notas" class="md-skip">
+        <a href="#dia-4-analizador-de-numeros" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              DÍA 3 — “Evaluador de notas”
+              DÍA 4 — “Analizador de números”
             
           </span>
         </div>
@@ -310,6 +310,33 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../dia3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DÍA 3 — “Evaluador de notas”
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -329,7 +356,7 @@
   <span class="md-ellipsis">
     
   
-    DÍA 3 — “Evaluador de notas”
+    DÍA 4 — “Analizador de números”
   
 
     
@@ -347,7 +374,7 @@
   <span class="md-ellipsis">
     
   
-    DÍA 3 — “Evaluador de notas”
+    DÍA 4 — “Analizador de números”
   
 
     
@@ -373,10 +400,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#conceptos" class="md-nav__link">
+  <a href="#objetivo" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Conceptos
+        Objetivo
       
     </span>
   </a>
@@ -395,6 +422,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#ejemplo-de-ejecucion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplo de ejecución
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#requisitos-adicionales" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -406,10 +444,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ampliacion" class="md-nav__link">
+  <a href="#ampliacion-nivel-avanzado" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Ampliación
+        Ampliación (nivel avanzado)
       
     </span>
   </a>
@@ -420,33 +458,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../dia4/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    DÍA 4 — “Analizador de números”
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -559,10 +570,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#conceptos" class="md-nav__link">
+  <a href="#objetivo" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Conceptos
+        Objetivo
       
     </span>
   </a>
@@ -581,6 +592,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#ejemplo-de-ejecucion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplo de ejecución
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#requisitos-adicionales" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -592,10 +614,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ampliacion" class="md-nav__link">
+  <a href="#ampliacion-nivel-avanzado" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Ampliación
+        Ampliación (nivel avanzado)
       
     </span>
   </a>
@@ -619,44 +641,86 @@
 
 
 
-<h1 id="dia-3-evaluador-de-notas">DÍA 3 — “Evaluador de notas”</h1>
-<h2 id="conceptos">Conceptos</h2>
-<p>Condicionales + lógica simple + validación básica.</p>
+<h1 id="dia-4-analizador-de-numeros">DÍA 4 — “Analizador de números”</h1>
+<h2 id="objetivo">Objetivo</h2>
+<p>Trabajar comparaciones, condicionales múltiples y lógica combinada.</p>
+<hr />
 <h2 id="enunciado">Enunciado</h2>
-<p>Crea un programa que evalúe la nota de un alumno.</p>
+<p>Crea un programa capaz de analizar dos números introducidos por el usuario.</p>
 <p>El programa debe:</p>
-<p>Pedir:</p>
-<ul>
-<li>Nombre del alumno</li>
-<li>Nota (0 a 10)</li>
-</ul>
+<ol>
+<li>
+<p>Pedir dos números enteros</p>
+</li>
+<li>
 <p>Mostrar:</p>
-<ul>
-<li>Si ha aprobado o suspendido</li>
-<li>Su calificación según la nota:</li>
-<li>&lt;5 → Suspenso</li>
-<li>5-6 → Aprobado</li>
-<li>7-8 → Notable</li>
-<li>9-10 → Sobresaliente</li>
-<li>Mostrar el resultado así:</li>
-</ul>
-<pre><code class="language-text">Alumno: Marta
-Nota: 7.5
-Resultado: Notable
+</li>
+<li>
+<p>Cuál es mayor</p>
+</li>
+<li>Cuál es menor</li>
+<li>
+<p>O indicar si son iguales</p>
+</li>
+<li>
+<p>Calcular y mostrar:</p>
+</li>
+<li>
+<p>La diferencia entre ambos</p>
+</li>
+<li>
+<p>La suma de los dos números</p>
+</li>
+<li>
+<p>Analizar además:</p>
+</li>
+<li>
+<p>Si cada número es positivo, negativo o cero</p>
+</li>
+<li>
+<p>Si cada número es par o impar</p>
+</li>
+<li>
+<p>Mostrar toda la información de manera ordenada.</p>
+</li>
+</ol>
+<hr />
+<h2 id="ejemplo-de-ejecucion">Ejemplo de ejecución</h2>
+<pre><code class="language-text">Introduce el primer número: 8
+Introduce el segundo número: -3
+
+----- RESULTADOS -----
+
+Número mayor: 8
+Número menor: -3
+
+Suma: 5
+Diferencia: 11
+
+Número 1:
+- Positivo
+- Par
+
+Número 2:
+- Negativo
+- Impar
+
+----------------------
 </code></pre>
+<hr />
 <h2 id="requisitos-adicionales">Requisitos adicionales</h2>
 <ul>
-<li>Usar correctamente condicionales (<code>if</code>, <code>elif</code>, <code>else</code>)</li>
-<li>Cubrir todos los casos posibles</li>
+<li>Deben contemplarse todos los casos posibles</li>
 <li>No repetir lógica innecesaria</li>
+<li>La salida debe estar bien estructurada</li>
+<li>Usar correctamente operadores matemáticos y condicionales</li>
 </ul>
-<h2 id="ampliacion">Ampliación</h2>
+<hr />
+<h2 id="ampliacion-nivel-avanzado">Ampliación (nivel avanzado)</h2>
+<p>Añadir:</p>
 <ul>
-<li>Si la nota es menor que 0 o mayor que 10:</li>
-<li>Mostrar: “Nota no válida”</li>
-<li>Añadir mensaje motivador:</li>
-<li>Suspenso → “Hay que seguir trabajando”</li>
-<li>Aprobado o más → “Buen trabajo”</li>
+<li>Comprobar que los números introducidos son enteros válidos</li>
+<li>Permitir introducir números decimales y analizar su parte entera y decimal por separado</li>
 </ul>
 
 

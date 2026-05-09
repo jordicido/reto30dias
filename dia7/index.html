@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="../dia2/">
+        <link rel="prev" href="../dia6/">
       
-      
-        <link rel="next" href="../dia4/">
       
       
         
@@ -23,7 +21,7 @@
     
     
       
-        <title>DÍA 3 — “Evaluador de notas” - Reto 30 días programando</title>
+        <title>Dia7 - Reto 30 días programando</title>
       
     
     
@@ -73,11 +71,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#dia-3-evaluador-de-notas" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -110,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              DÍA 3 — “Evaluador de notas”
+              Dia7
             
           </span>
         </div>
@@ -310,37 +303,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    DÍA 3 — “Evaluador de notas”
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../dia3/" class="md-nav__link">
         
   
   
@@ -356,70 +322,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#conceptos" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Conceptos
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#enunciado" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Enunciado
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#requisitos-adicionales" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Requisitos adicionales
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ampliacion" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Ampliación
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -509,10 +411,17 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../dia7/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -528,6 +437,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -549,60 +459,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#conceptos" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Conceptos
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#enunciado" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Enunciado
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#requisitos-adicionales" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Requisitos adicionales
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ampliacion" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Ampliación
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -619,45 +475,153 @@
 
 
 
-<h1 id="dia-3-evaluador-de-notas">DÍA 3 — “Evaluador de notas”</h1>
-<h2 id="conceptos">Conceptos</h2>
-<p>Condicionales + lógica simple + validación básica.</p>
-<h2 id="enunciado">Enunciado</h2>
-<p>Crea un programa que evalúe la nota de un alumno.</p>
-<p>El programa debe:</p>
-<p>Pedir:</p>
-<ul>
-<li>Nombre del alumno</li>
-<li>Nota (0 a 10)</li>
-</ul>
-<p>Mostrar:</p>
-<ul>
-<li>Si ha aprobado o suspendido</li>
-<li>Su calificación según la nota:</li>
-<li>&lt;5 → Suspenso</li>
-<li>5-6 → Aprobado</li>
-<li>7-8 → Notable</li>
-<li>9-10 → Sobresaliente</li>
-<li>Mostrar el resultado así:</li>
-</ul>
-<pre><code class="language-text">Alumno: Marta
-Nota: 7.5
-Resultado: Notable
+  <h1>Dia7</h1>
+
+<!-- # DÍA 7 — “Gestor de supermercado”
+
+## Objetivo
+
+Consolidar bucles, menús interactivos, validaciones y acumulación de datos.
+
+---
+
+## Enunciado
+
+Crea un programa que simule un pequeño sistema de compra de supermercado.
+
+El programa comenzará con un carrito vacío y mostrará continuamente un menú hasta que el usuario decida finalizar la compra.
+
+---
+
+## Menú principal
+
+
+<pre><code class="language-text">----- SUPERMERCADO -----
+
+1. Añadir producto
+2. Ver total actual
+3. Aplicar descuento
+4. Finalizar compra
 </code></pre>
-<h2 id="requisitos-adicionales">Requisitos adicionales</h2>
-<ul>
-<li>Usar correctamente condicionales (<code>if</code>, <code>elif</code>, <code>else</code>)</li>
-<li>Cubrir todos los casos posibles</li>
-<li>No repetir lógica innecesaria</li>
-</ul>
-<h2 id="ampliacion">Ampliación</h2>
-<ul>
-<li>Si la nota es menor que 0 o mayor que 10:</li>
-<li>Mostrar: “Nota no válida”</li>
-<li>Añadir mensaje motivador:</li>
-<li>Suspenso → “Hay que seguir trabajando”</li>
-<li>Aprobado o más → “Buen trabajo”</li>
-</ul>
+
+
+---
+
+## Funcionamiento
+
+### Opción 1 — Añadir producto
+
+El programa debe pedir:
+
+* Nombre del producto
+* Precio del producto
+
+Después:
+
+* Sumar el precio al total de la compra
+* Mostrar el nuevo total acumulado
+
+No se permiten precios negativos.
+
+---
+
+### Opción 2 — Ver total actual
+
+Mostrar:
+
+* Dinero acumulado hasta el momento
+
+---
+
+### Opción 3 — Aplicar descuento
+
+Aplicar:
+
+* 10% de descuento si el total supera 50€
+* 20% de descuento si supera 100€
+
+Si no llega a 50€:
+
+
+<pre><code class="language-text">No hay descuento disponible.
+</code></pre>
+
+
+---
+
+### Opción 4 — Finalizar compra
+
+Mostrar:
+
+* Total antes del descuento
+* Descuento aplicado
+* Precio final
+
+Y cerrar el programa.
+
+---
+
+## Ejemplo de ejecución
+
+
+<pre><code class="language-text">Producto: Leche
+Precio: 2.5€
+
+Producto añadido correctamente.
+
+Producto: Pan
+Precio: 1.2€
+
+Producto añadido correctamente.
+
+Producto: Huevos
+Precio: 3€
+
+Producto añadido correctamente.
+
+Total actual: 6.7€
+</code></pre>
+
+
+---
+
+## Requisitos adicionales
+
+* El menú debe repetirse mediante un bucle
+* El total debe actualizarse correctamente
+* Validar que los precios sean positivos
+* El programa solo termina cuando el usuario elige finalizar compra
+
+---
+
+## Ampliación (nivel avanzado)
+
+### Nivel 1
+
+Contar cuántos productos se han añadido.
+
+---
+
+### Nivel 2
+
+Mostrar el producto más caro introducido.
+
+---
+
+### Nivel 3
+
+Añadir una opción:
+
+
+<pre><code class="language-text">5. Vaciar carrito
+</code></pre>
+
+
+Que reinicie:
+
+* Total
+* Número de productos
+* Descuentos -->
 
 
 
