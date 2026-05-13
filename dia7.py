@@ -54,6 +54,8 @@ while True:
         print(f"Total antes del descuento: {total:.2f}€")
         print(f"Descuento aplicado: {discount:.2f}€")
         print(f"Precio final: {final_price:.2f}€")
+        if expensive_product:
+            print(f"Producto más caro: {expensive_product[0]} ({expensive_product[1]:.2f}€)")
         break
 
     elif choice == "5":
