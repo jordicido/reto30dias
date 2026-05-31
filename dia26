@@ -1,0 +1,193 @@
+# DÍA 26 — “Creador de personajes”
+
+## Objetivo
+
+Trabajar con **listas de diccionarios**, combinando dos estructuras de datos:
+
+* Una **lista** para guardar varios personajes.
+* Un **diccionario** para guardar los datos de cada personaje.
+
+---
+
+## Enunciado
+
+Crea un programa que permita crear personajes para un pequeño juego de rol.
+
+Cada personaje tendrá estos datos:
+
+```text
+Nombre
+Vida
+Ataque
+Defensa
+```
+
+Todos los personajes se guardarán en una lista.
+
+Cada personaje será un diccionario como este:
+
+```python
+{
+    "nombre": "Aria",
+    "vida": 100,
+    "ataque": 25,
+    "defensa": 10
+}
+```
+
+Y todos los personajes estarán dentro de una lista:
+
+```python
+personajes = []
+```
+
+---
+
+## Menú principal
+
+```text
+----- CREADOR DE PERSONAJES -----
+
+1. Crear personaje
+2. Ver personajes
+3. Buscar personaje
+4. Salir
+```
+
+---
+
+## Opción 1 — Crear personaje
+
+El programa debe pedir:
+
+```text
+Nombre del personaje:
+Vida:
+Ataque:
+Defensa:
+```
+
+Después debe crear un diccionario con esos datos y añadirlo a la lista de personajes.
+
+Ejemplo:
+
+```text
+Personaje creado correctamente.
+```
+
+---
+
+## Opción 2 — Ver personajes
+
+El programa debe mostrar todos los personajes creados.
+
+Ejemplo:
+
+```text
+----- PERSONAJES -----
+
+1. Aria
+   Vida: 100
+   Ataque: 25
+   Defensa: 10
+
+2. Thorin
+   Vida: 120
+   Ataque: 20
+   Defensa: 15
+```
+
+Si no hay personajes:
+
+```text
+No hay personajes creados.
+```
+
+---
+
+## Opción 3 — Buscar personaje
+
+El programa debe pedir el nombre de un personaje.
+
+Si existe, debe mostrar todos sus datos:
+
+```text
+Nombre: Aria
+Vida: 100
+Ataque: 25
+Defensa: 10
+```
+
+Si no existe:
+
+```text
+Personaje no encontrado.
+```
+
+---
+
+## Opción 4 — Salir
+
+Finalizar el programa:
+
+```text
+Fin del creador de personajes.
+```
+
+---
+
+## Requisitos
+
+* Usar una lista llamada `personajes`.
+* Cada personaje debe ser un diccionario.
+* Añadir personajes con `append()`.
+* Recorrer la lista para mostrar los personajes.
+* Recorrer la lista para buscar un personaje por nombre.
+* Validar que vida, ataque y defensa sean números positivos.
+* No permitir personajes con el mismo nombre.
+
+---
+
+## Ampliación
+
+### Nivel 1 — Clasificación por poder
+
+Calcular el poder de cada personaje:
+
+```text
+poder = vida + ataque + defensa
+```
+
+Y mostrarlo al listar personajes.
+
+Ejemplo:
+
+```text
+Aria → Poder: 135
+```
+
+---
+
+### Nivel 2 — Personaje más fuerte
+
+Mostrar qué personaje tiene más poder total.
+
+Ejemplo:
+
+```text
+Personaje más fuerte: Thorin
+Poder: 155
+```
+
+---
+
+### Nivel 3 — Eliminar personaje
+
+Añadir una opción al menú:
+
+```text
+4. Eliminar personaje
+5. Salir
+```
+
+El usuario introduce el nombre del personaje y, si existe, se elimina de la lista.
